@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { Briefcase, GraduationCap, Calendar, MapPin } from "lucide-react";
+import { Briefcase, GraduationCap, Calendar, } from "lucide-react";
 import { experiences } from "@/lib/data";
 
 const tc:Record<string,string>={"React":"#61DAFB","Next.js":"#818CF8","TypeScript":"#3B82F6","Node.js":"#22C55E","MongoDB":"#4ADE80","PostgreSQL":"#60A5FA","Redis":"#F87171","Docker":"#60A5FA","GraphQL":"#F472B6","AWS":"#FB923C","Stripe":"#A78BFA","Express":"#FBBF24","Redux":"#A78BFA","Prisma":"#2DD4BF","Socket.io":"#94A3B8","Python":"#3776AB","SASS":"#F472B6","Jest":"#C084FC","Webpack":"#60A5FA","Prometheus":"#F87171","Grafana":"#FB923C","C++":"#60A5FA","Java":"#FB923C","Algorithms":"#818CF8","Data Structures":"#22D3EE"};
