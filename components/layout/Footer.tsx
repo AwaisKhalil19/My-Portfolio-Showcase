@@ -10,7 +10,7 @@ export default function Footer() {
           <div style={{width:"28px",height:"28px",borderRadius:"7px",background:"linear-gradient(135deg,#6366F1,#8B5CF6)",display:"flex",alignItems:"center",justifyContent:"center"}}><Code2 size={13} color="white"/></div>
           <span style={{fontFamily:"'Space Grotesk',system-ui,sans-serif",fontWeight:700,background:"linear-gradient(135deg,#6366F1,#22D3EE)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent",backgroundClip:"text"}}>Awais Khalil</span>
         </div>
-        <p style={{color:"var(--text-3)",fontSize:"13px",display:"flex",alignItems:"center",gap:"5px"}}>Crafted with in Pakistan © {new Date().getFullYear()}</p>
+        <p style={{color:"var(--text-3)",fontSize:"13px",display:"flex",alignItems:"center",gap:"5px"}}>{}</p>
         <div style={{display:"flex",gap:"8px"}}>
           {socials.map(({href,label,path})=>(
             <motion.a key={label} href={href} target="_blank" rel="noopener noreferrer" whileHover={{scale:1.1,y:-2}} aria-label={label}

@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Code2 } from "lucide-react";
 export default function LoadingScreen() {
   const [loading, setLoading] = useState(true);
-  useEffect(() => { const t = setTimeout(() => setLoading(false), 2000); return () => clearTimeout(t); }, []);
+  useEffect(() => { const t = setTimeout(() => setLoading(false), 700); return () => clearTimeout(t); }, []);
   return (
     <AnimatePresence>
       {loading && (
