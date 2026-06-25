@@ -1,5 +1,7 @@
-import type { Project, Skill, Experience, Service, Stat } from "@/types";
+import type {Skill, Experience, Service, Stat } from "@/types";
 
+
+//Import Project is missing
 // export const projects: Project[] = [
 //   {
 //     id: "1",
@@ -192,7 +194,7 @@ export const services: Service[] = [
 export const stats: Stat[] = [
   { label: "Years of Experience", value: "2", suffix: "+" },
   { label: "Projects Delivered", value: "20", suffix: "+" },
-  { label: "Happy Clients", value: "6", suffix: "+" },
+  { label: "Happy Clients", value: "10", suffix: "+" },
   { label: "GitHub Stars", value: "1.2", suffix: "k" },
 ];
 

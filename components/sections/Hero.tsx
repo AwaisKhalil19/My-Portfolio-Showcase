@@ -368,7 +368,7 @@ export default function Hero() {
                 {[
                   { label:"2+ Years", sub:"Experience", pos:{ top:"-16px", left:"-16px" }, color:"#818CF8", dur:3.5 },
                   { label:"20+",      sub:"Projects",   pos:{ bottom:"-16px", right:"-28px" }, color:"#22D3EE", dur:4.0 },
-                  { label:"6+",      sub:"Clients",    pos:{ bottom:"-16px", left:"-28px" }, color:"#a78bfa", dur:4.5 },
+                  { label:"10+",      sub:"Clients",    pos:{ bottom:"-16px", left:"-28px" }, color:"#a78bfa", dur:4.5 },
                 ].map(({ label, sub, pos, color, dur }) => (
                   <motion.div key={label} className="sphere-badge" style={{ ...pos }}
                     animate={{ y:[0,-7,0] }} transition={{ repeat:Infinity, duration:dur, ease:"easeInOut" }}>
