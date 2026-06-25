@@ -110,7 +110,7 @@ export const experiences: Experience[] = [
       "Passionate about creating modern and scalable web experiences",
       "Creating modern, responsive, and high-performance WordPress websites",
     ],
-    technologies: ["Elementor", "Crocoblock", "Evanto", "ACF",],
+    technologies: ["Elementor", "Crocoblock", "ACF",],
     type: "work",
   },
   {
