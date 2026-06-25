@@ -3,24 +3,24 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
 
 export const metadata: Metadata = {
-  title: "Alex Morgan | Full Stack Developer",
+  title: "Awais Khalil | MERN Stack Developer",
   description: "Full Stack Developer specializing in MERN Stack, Next.js, and modern web technologies. Building scalable, performant, and beautiful web applications.",
-  keywords: ["Full Stack Developer", "React", "Next.js", "Node.js", "MERN Stack", "TypeScript", "Web Developer"],
-  authors: [{ name: "Alex Morgan" }],
+  keywords: ["WordPress Developer", "React", "Next.js", "Node.js", "MERN Stack", "TypeScript", "Web Developer"],
+  authors: [{ name: "Awais Khalil" }],
   creator: "Alex Morgan",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://alexmorgan.dev",
+    url: "https://awaiskhalil.dev",
     title: "Alex Morgan | Full Stack Developer",
     description: "Full Stack Developer specializing in MERN Stack, Next.js, and modern web technologies.",
     siteName: "Alex Morgan Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alex Morgan | Full Stack Developer",
+    title: "Awais Khalil | MERN Stack Developer",
     description: "Full Stack Developer specializing in MERN Stack, Next.js, and modern web technologies.",
-    creator: "@alexmorgandev",
+    creator: "@awaiskhalildev",
   },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
 };

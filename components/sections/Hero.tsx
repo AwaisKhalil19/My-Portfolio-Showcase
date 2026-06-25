@@ -243,7 +243,7 @@ export default function Hero() {
                   >
                   <img
                     src="/Portfolio Pic.jpg"
-                    alt="Awais Khalil"
+                    alt=""
                     onError={(e) => {
                       const img = e.target as HTMLImageElement;
                       img.style.display = "none";
