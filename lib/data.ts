@@ -1,4 +1,6 @@
-import type { Project, Skill, Experience, Testimonial, Service, Stat } from "@/types";
+import type { Project, Skill, Experience, Service, Stat } from "@/types";
+
+//Testiminial is not mention
 
 export const projects: Project[] = [
   {
@@ -108,13 +110,13 @@ export const experiences: Experience[] = [
       "Passionate about creating modern and scalable web experiences",
       "Creating modern, responsive, and high-performance WordPress websites",
     ],
-    technologies: ["Elementor", "Crocoblock",, "Evanto", "ACF",],
+    technologies: ["Elementor", "Crocoblock", "Evanto", "ACF",],
     type: "work",
   },
   {
     id: "2",
     role: "MERN Stack Developer",
-    // company: "Pixel Forge Studio",
+    company: "Freelancer",
     period: "1+ years",
     description: [
       "Built 6+ client projects ranging from e-commerce platforms to real-time collaboration tools",
@@ -122,13 +124,13 @@ export const experiences: Experience[] = [
       "Integrated third-party services including Stripe, SendGrid, and AWS S3",
       "Achieved 85+ Lighthouse performance scores across all delivered projects",
     ],
-    technologies: ["React", "Node.js", "Express.js",, "MongoDB", "AWS S3"],
+    technologies: ["React", "Node.js", "Express.js", "MongoDB", "AWS S3",],
     type: "work",
   },
   {
     id: "3",
     role: "Frontend Developer",
-    company: "StartUp Hub",
+    company: "Freelancer",
     period: "Jan 2020 – May 2021",
     description: [
       "Front-End Developer with a passion for creating modern and responsive web applications",
