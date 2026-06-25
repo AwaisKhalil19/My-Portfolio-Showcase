@@ -1,7 +1,5 @@
 import type { Project, Skill, Experience, Service, Stat } from "@/types";
 
-//Testiminial is not mention
-
 export const projects: Project[] = [
   {
     id: "1",
@@ -155,45 +153,6 @@ export const experiences: Experience[] = [
     type: "education",
   },
 ];
-
-// export const testimonials: Testimonial[] = [
-//   {
-//     id: "1",
-//     name: "Sarah Chen",
-//     role: "CTO",
-//     company: "TechVision Labs",
-//     avatar: "/avatars/sarah.jpg",
-//     rating: 5,
-//     text: "Alex is an exceptional developer who consistently delivers beyond expectations. The analytics dashboard they built transformed how we visualize our data. Their attention to performance and code quality is outstanding.",
-//   },
-//   {
-//     id: "2",
-//     name: "Marcus Rodriguez",
-//     role: "Product Manager",
-//     company: "Pixel Forge Studio",
-//     avatar: "/avatars/marcus.jpg",
-//     rating: 5,
-//     text: "Working with Alex was a game-changer for our startup. They not only wrote clean, maintainable code but also contributed creative solutions to complex product challenges. The e-commerce platform they built handles peak traffic flawlessly.",
-//   },
-//   {
-//     id: "3",
-//     name: "Emily Watson",
-//     role: "Founder",
-//     company: "ContentAI",
-//     avatar: "/avatars/emily.jpg",
-//     rating: 5,
-//     text: "Alex built our AI content platform from scratch in record time without sacrificing quality. They have a rare ability to understand both the technical and business sides of a problem. I highly recommend them for any complex web project.",
-//   },
-//   {
-//     id: "4",
-//     name: "David Kim",
-//     role: "Lead Engineer",
-//     company: "CloudScale Inc.",
-//     avatar: "/avatars/david.jpg",
-//     rating: 5,
-//     text: "Alex's expertise in Node.js and database optimization helped us reduce our infrastructure costs by 35%. They brought a level of architectural thinking that elevated our entire engineering team.",
-//   },
-// ];
 
 export const services: Service[] = [
   {
