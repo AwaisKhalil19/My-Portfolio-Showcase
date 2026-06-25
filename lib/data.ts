@@ -100,7 +100,7 @@ export const experiences: Experience[] = [
   {
     id: "1",
     role: "WordPress Development",
-    //company: "Empernova",
+    company: "Freelance",
     period: "1+ years",
     description: [
       "Skilled in custom themes, plugins, Elementor, and website optimization",
