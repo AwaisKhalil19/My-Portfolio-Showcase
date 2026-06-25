@@ -20,9 +20,9 @@ function Counter({ value, suffix="" }: { value:string; suffix?:string }) {
 }
 
 const cards = [
-  { Icon:User, title:"Who I Am", text:"A passionate full-stack developer based in New York with a love for crafting elegant solutions to complex problems.", accent:"#6366F1" },
+  { Icon:User, title:"Who I Am", text:"A MERN-stack developer & WordPress Developer based in Pakistan with a love for crafting elegant solutions to complex problems.", accent:"#6366F1" },
   { Icon:Briefcase, title:"What I Do", text:"I build scalable web applications from concept to deployment. My specialty is MERN Stack and Next.js.", accent:"#8B5CF6" },
-  { Icon:GraduationCap, title:"My Background", text:"CS graduate with 5+ years of experience. Worked with startups and enterprises, always delivering maintainable code.", accent:"#22D3EE" },
+  { Icon:GraduationCap, title:"My Background", text:"Undergraduate In BBIT with 2+ years of experience. Worked with startups and enterprises, always delivering maintainable code.", accent:"#22D3EE" },
   { Icon:Code2, title:"My Approach", text:"Clean, tested, documented code. Performance by default, accessibility as a necessity, great DX as a competitive edge.", accent:"#6366F1" },
 ];
 
