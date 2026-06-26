@@ -216,14 +216,13 @@ export default function Hero() {
               transition={{ duration:0.7, delay:0.1 }}
             >
               <div>
-                {/* Avatar circle */}
                 <div id="mob-avatar-card">
                   {/* Glow */}
                   <div style={{ position:"absolute", inset:"10px", borderRadius:"50%", background:"linear-gradient(135deg,rgba(99,102,241,0.3),rgba(139,92,246,0.3))", filter:"blur(18px)" }} />
                   {/* Outer ring */}
-                  <div style={{ position:"absolute", inset:0, borderRadius:"50%", border:"1px solid rgba(99,102,241,0.25)", animation:"spin 10s linear infinite" }} />
+                  {/* <div style={{ position:"absolute", inset:0, borderRadius:"50%", border:"1px solid rgba(99,102,241,0.25)", animation:"spin 10s linear infinite" }} /> */}
                   {/* Inner ring */}
-                  <div style={{ position:"absolute", inset:"14px", borderRadius:"50%", border:"1px solid rgba(139,92,246,0.18)", animation:"spin 14s linear infinite reverse" }} />
+                  {/* <div style={{ position:"absolute", inset:"14px", borderRadius:"50%", border:"1px solid rgba(139,92,246,0.18)", animation:"spin 14s linear infinite reverse" }} /> */}
                   {/* Avatar face */}
                   {/* <div style={{ position:"absolute", inset:"22px", borderRadius:"50%", background:"var(--glass)", backdropFilter:"blur(16px)", border:"2px solid rgba(99,102,241,0.4)", display:"flex", alignItems:"center", justifyContent:"center", flexDirection:"column", gap:"3px" }}>
                     <span style={{ fontFamily:"'Space Grotesk',system-ui,sans-serif", fontWeight:700, fontSize:"clamp(36px,10vw,48px)", lineHeight:1, background:"linear-gradient(135deg,#6366F1,#22D3EE)", WebkitBackgroundClip:"text", WebkitTextFillColor:"transparent", backgroundClip:"text" }}>Awais Khalil</span>
@@ -250,7 +249,7 @@ export default function Hero() {
                       const fallback = document.getElementById("photo-fallback");
                       if (fallback) fallback.style.display = "flex";
                     }}
-                    style={{ width:"100%", height:"100%", objectFit:"cover", objectPosition:"center top", display:"block" }}
+                    style={{ width:"100%", height:"100%", objectFit:"cover", objectPosition:"center center", display:"block" }}
                     />
                 </div>
                 </div>
@@ -327,8 +326,8 @@ export default function Hero() {
             >
               <div id="sphere-wrap">
                 {/* Rings */}
-                <div style={{ position:"absolute", inset:0, borderRadius:"50%", border:"1px solid rgba(99,102,241,0.2)", animation:"spin 10s linear infinite" }} />
-                <div style={{ position:"absolute", inset:"18px", borderRadius:"50%", border:"1px solid rgba(139,92,246,0.15)", animation:"spin 14s linear infinite reverse" }} />
+                {/* <div style={{ position:"absolute", inset:0, borderRadius:"50%", border:"1px solid rgba(99,102,241,0.2)", animation:"spin 10s linear infinite" }} />
+                <div style={{ position:"absolute", inset:"18px", borderRadius:"50%", border:"1px solid rgba(139,92,246,0.15)", animation:"spin 14s linear infinite reverse" }} /> */}
                 {/* Glow */}
                 <div style={{ position:"absolute", inset:"8px", borderRadius:"50%", background:"linear-gradient(135deg,rgba(99,102,241,0.2),rgba(139,92,246,0.2))", filter:"blur(22px)" }} />
                 
@@ -360,7 +359,7 @@ export default function Hero() {
                       const fallback = document.getElementById("photo-fallback");
                       if (fallback) fallback.style.display = "flex";
                     }}
-                    style={{ width:"100%", height:"100%", objectFit:"cover", objectPosition:"center top", display:"block" }}
+                    style={{ width:"100%", height:"100%", objectFit:"cover", objectPosition:"center center", display:"block" }}
                     />
                   </div>
                 {/* </div> */}
