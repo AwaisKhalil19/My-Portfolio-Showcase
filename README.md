@@ -1,4 +1,4 @@
-# Alex Morgan — Developer Portfolio
+# Awais Khalil — Developer Portfolio
 
 A production-ready developer portfolio built with Next.js 15, TypeScript, Tailwind CSS, and Framer Motion.
 

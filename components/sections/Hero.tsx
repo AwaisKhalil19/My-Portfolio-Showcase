@@ -299,7 +299,7 @@ export default function Hero() {
                   style={{ display:"inline-flex", alignItems:"center", justifyContent:"center", gap:"7px", padding:"12px 22px", borderRadius:"11px", background:"#6366F1", color:"white", fontWeight:600, fontSize:"14px", border:"none", cursor:"pointer", boxShadow:"0 0 24px rgba(99,102,241,0.45)", fontFamily:"inherit", whiteSpace:"nowrap" }}>
                   <Sparkles size={15} /> View My Work
                 </motion.button>
-                <motion.a href="https://docs.google.com/document/d/e/2PACX-1vRAolCUrzH9fMFgT8WeY8BJWc7CIZCduv5vK6vVPvRhNsjHmtk5mf0v_fknS5JxvYvr6Rn-w7bYDwv3/pub" download="/Awais-Khalil-CV.pdf" whileHover={{ scale:1.05 }} whileTap={{ scale:0.95 }}
+                <motion.a href="/Awais-Khalil-CV.pdf" download="/Awais-Khalil-CV.pdf" whileHover={{ scale:1.05 }} whileTap={{ scale:0.95 }}
                   style={{ display:"inline-flex", alignItems:"center", justifyContent:"center", gap:"7px", padding:"12px 22px", borderRadius:"11px", background:"var(--glass)", backdropFilter:"blur(12px)", border:"1px solid var(--glass-border)", color:"var(--text)", fontWeight:600, fontSize:"14px", textDecoration:"none", whiteSpace:"nowrap" }}>
                   <Download size={15} /> Download CV
                 </motion.a>
